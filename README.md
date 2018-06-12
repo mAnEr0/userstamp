@@ -19,7 +19,7 @@ Installation
 Installation of the plugin can be done using the built in Rails plugin script. Issue the following
 command from the root of your Rails application:
 
-    $ ./script/rails plugin install git://github.com/delynn/userstamp.git
+    $ ./script/rails plugin install git://github.com/mAnEr0/userstamp.git
 
 or add it to your Gemfile:
 
@@ -180,33 +180,3 @@ Uninstalling the plugin can be done using the built in Rails plugin script. Issu
 command from the root of your application:
 
     script/plugin remove userstamp
-
-
-Documentation
--------------
-
-RDoc has been run on the plugin directory and is available in the doc directory.
-
-
-Running Unit Tests
-------------------
-
-There are extensive unit tests in the "test" directory of the plugin. These test can be run
-individually by executing the following command from the userstamp directory:
-
-    ruby test/compatibility_stamping_test.rb
-    ruby test/stamping_test.rb
-    ruby test/userstamp_controller_test.rb
-
-
-Bugs & Feedback
----------------
-
-Bug reports and feedback are welcome via [GitHub Issues](https://github.com/delynn/userstamp/issues). I also encouraged everyone to clone the git repository and make modifications--I'll be more than happy to merge any changes from other people's branches that would be beneficial to the whole project.
-
-
-Credits and Special Thanks
---------------------------
-
-The original idea for this plugin came from the Rails Wiki article entitled
-"Extending ActiveRecord" on the Rails Wiki (no longer published).

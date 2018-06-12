@@ -6,9 +6,9 @@ require "userstamp/version"
 Gem::Specification.new do |s|
   s.name        = "userstamp"
   s.version     = Userstamp::VERSION
-  s.authors     = ["DeLynn Berry"]
-  s.email       = ["delynn@gmail.com"]
-  s.homepage    = "https://github.com/delynn/userstamp"
+  s.authors     = ["mAnEr0"]
+  s.email       = ["jomi.sanz@gmail.com"]
+  s.homepage    = "https://github.com/mAnEr0/userstamp"
   s.summary     = "Add audting to your ActiveRecord models"
   s.description = %q{This Rails plugin extends ActiveRecord::Base to add automatic updating of created_by and updated_by attributes of your models in much the same way that the ActiveRecord::Timestamp module updates created_(at/on) and updated_(at/on) attributes.}
 
@@ -20,6 +20,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
+  s.add_dependency 'rails', '>= 5.0'
 end
